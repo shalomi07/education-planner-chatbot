@@ -1,0 +1,1 @@
+GEMINI_API_KEY="gotcha" //jebakan karena env asli kita hide

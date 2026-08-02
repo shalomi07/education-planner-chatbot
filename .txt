@@ -1,0 +1,8 @@
+npx nodemon -x "node index.js" di terminal
+arti: setiap ada perubahan, akan dijalankan tepat perintah ini dijalankan
+diinput/run: setelah app.get
+
+
+-H => header
+-d => datanya yang akan dilemparkan
+-X => HTTP method
