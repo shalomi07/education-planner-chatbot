@@ -1,7 +1,108 @@
 <!DOCTYPE html>
+<html lang="id">
+
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =========================
+         AI Chatbot
+         STUDY PLANNER CHATBOT
+         ========================= -->
+    <title>Study Planner Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <div class="container">
+
+        <!-- =========================
+             BANTU KAMU PERSIAPAN STUDI & PERENCANAAN BELAJAR
+             ========================= -->
+        <header class="header">
+
+            <h1 id="bot-title">
+                Study Planner Assistant
+            </h1>
+
+            <p id="bot-description">
+                AI chatbot yang bisa bantu kamu untuk persiapan kuliah atau buat study plan semasa belajar. Kamu bisa tanya tentang tips belajar, strategi manajemen waktu, rekomendasi sumber belajar, dan banyak lagi. Cukup ketik pertanyaanmu di bawah ini dan kirim!
+            </p>
+
+        </header>
+
+        <!-- =========================
+             CHAT AREA
+             ========================= -->
+
+        <main id="chat-box">
+
+            <!-- Pesan pertama -->
+
+            <div class="message bot">
+
+                <div class="avatar">
+                    🤖
+                </div>
+
+                <div class="bubble">
+
+                    Halo!
+
+                    <br><br>
+
+                    Saya siap membantu.
+
+                    <br>
+
+                    Silakan kirim pesan pertama Anda.
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <!-- =========================
+             LOADING AI
+             ========================= -->
+
+        <div id="typing-indicator" class="hidden">
+
+            <div class="typing-dot"></div>
+            <div class="typing-dot"></div>
+            <div class="typing-dot"></div>
+
+            <span>AI sedang mengetik...</span>
+
+        </div>
+
+        <!-- =========================
+             INPUT AREA
+             ========================= -->
+
+        <footer class="input-area">
+
+            <textarea
+                id="message-input"
+                placeholder="Ketik pesan di sini..."
+                rows="2"
+            ></textarea>
+
+            <button id="send-button">
+
+                Kirim
+
+            </button>
+
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
+
+</html>
